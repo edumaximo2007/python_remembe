@@ -1,0 +1,10 @@
+import emoji
+print('=-='*10)
+print('''\033[7m          DESAFIO 002         \033[m''')
+print('=-='*10)
+print(emoji.emojize(''':bulb: \033[1mFaça um programa que leia o nome de uma pessoa e mostre na tela uma mensagem de boas-vindas.\033[m''', use_aliases=True))
+print('')
+print('\033[7m RESPONDENDO AO USUÁRIO\033[m')
+print('')
+nome = str(input('\033[1mDigite seu nome:\033[m '))
+print(f'\033[1mÉ um prazer te conhecer, {nome}\033[m')
